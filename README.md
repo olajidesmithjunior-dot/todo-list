@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+"# Todo List - Next.js + Tailwind CSS" 
 
-## Getting Started
+Parfait ! Voici un **README complet prêt à copier-coller** pour ton projet Todo List avec Next.js et Tailwind CSS :
 
-First, run the development server:
+````markdown
+# Todo List - Next.js + Tailwind CSS
+
+Un projet **Todo List** développé avec **Next.js** et **Tailwind CSS**.  
+Cette application permet de gérer des tâches de manière simple et rapide.
+
+---
+
+## 🚀 Fonctionnalités
+
+- Ajouter des tâches
+- Supprimer des tâches
+- Marquer une tâche comme terminée
+- Stockage des tâches dans un fichier JSON (backend simplifié)
+- Interface moderne et responsive grâce à Tailwind CSS
+
+---
+
+## 🛠 Technologies utilisées
+
+- [Next.js](https://nextjs.org/) - Framework React pour le SSR et SSG
+- [React](https://reactjs.org/) - Bibliothèque UI
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitaire
+- [uuid](https://www.npmjs.com/package/uuid) - Pour générer des IDs uniques
+- JSON pour le stockage local simple des tâches
+
+---
+
+## 💻 Installation
+
+1. Cloner le repo :
+
+```bash
+git clone https://github.com/olajidesmithjunior-dot/todo-list.git
+cd todo-list
+````
+
+2. Installer les dépendances :
+
+```bash
+npm install
+```
+
+3. Lancer le projet en développement :
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrir [http://localhost:3000](http://localhost:3000) dans le navigateur.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Structure du projet
 
-## Learn More
+```
+├── app/                 # Pages et routes App Router
+├── components/          # Composants réutilisables (ex: TodoItem, Breadcrumb)
+├── data/                # Stockage JSON des tâches
+├── public/              # Assets (images, icônes)
+├── styles/              # CSS global et Tailwind
+├── package.json         # Dépendances et scripts
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Personnalisation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Modifier le fichier `data/tasks.json` pour précharger des tâches.
+* Personnaliser Tailwind dans `tailwind.config.js` si besoin.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📈 Déploiement
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ce projet peut être déployé facilement sur **Vercel** :
+
+```bash
+vercel deploy
+```
+
+---
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues !
+Forkez le repo et créez une **pull request** pour proposer vos améliorations.
+
+---
+
+## 📄 Licence
+
+Ce projet est sous licence MIT.
+
+```
