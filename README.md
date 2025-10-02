@@ -1,8 +1,3 @@
-"# Todo List - Next.js + Tailwind CSS" 
-
-Parfait ! Voici un **README complet prêt à copier-coller** pour ton projet Todo List avec Next.js et Tailwind CSS :
-
-````markdown
 # Todo List - Next.js + Tailwind CSS
 
 Un projet **Todo List** développé avec **Next.js** et **Tailwind CSS**.  
